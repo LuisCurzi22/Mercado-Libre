@@ -1,0 +1,85 @@
+div{
+    margin-top: 10px;
+}
+.center{
+    text-align: center;
+}
+.formato-img{
+    background-color: white;
+    width: 90%;
+    margin: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.precio{
+    font-size: 18px;
+    text-align: start;
+}
+.descuento{
+    font-size: 16px;
+    color: #39b54a;
+}
+.descripcion{
+    font-size: 10px;
+    text-align: start;
+    margin-left: 15%;
+    margin-right: 15%;
+    border-top: 1px solid;
+    border-color: #ebeebe;
+    display: none;
+
+}
+.logo{
+    width: 150px;
+}
+.titular{
+    font-size: 24px;
+    text-align: center;
+}
+.publi-cont{
+    text-align: start;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.camion{
+    position: absolute;
+    margin-top: 80%;
+    width: 8%;
+    left: 21%;
+    font-size: 15px;
+    border: 1px solid;
+    border-radius: 90%;
+    padding: 1vw;
+    color:#39b54a;
+}
+@media (min-width: 768px){
+    .hileras{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content:space-between;
+    }
+    .formato-img{
+        position: relative;
+        width: 55%;
+        margin: 11vw;
+    }
+    .descripcion{
+        display: block;
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+}
+@media (min-width: 1024px){
+    .formato-img{
+        position: relative;
+        width: 55%;
+        margin: 5vw;
+        font-size: 12%;
+    }
+    .camion{
+        position: absolute;
+        margin-top: -9%;
+        width: 30%;
+        left: -20%;
+    }
+}
