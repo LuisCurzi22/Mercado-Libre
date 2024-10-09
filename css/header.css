@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+header{
+    background-color: #EAC926;
+}
+*{
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 12px;
+    text-decoration: none;
+    color: black;
+}
+.logo{
+    width: 150px;
+    
+}
+h1{
+    text-align: center;
+}
+.burguer-menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.fa-bars{
+    background-color: #1259c3;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 20px;
+    margin-top: 3vh;
+    margin-bottom: 10px;
+}
+

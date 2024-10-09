@@ -1,0 +1,13 @@
+.login{
+    text-align: center;
+}
+#enviar{
+    background-color: #1259c3;
+    color: white;
+    border-radius: 5px;
+    padding: 4px 11px;
+    font-size: 16px;
+}
+.fond{
+    background-color: #ebebeb;
+}
