@@ -15,6 +15,7 @@ div{
 .precio{
     font-size: 18px;
     text-align: start;
+    margin-bottom: 10px;
 }
 .descuento{
     font-size: 16px;
@@ -30,28 +31,31 @@ div{
     display: none;
 
 }
-.logo{
-    width: 150px;
-}
+
 .titular{
     font-size: 24px;
     text-align: center;
 }
 .publi-cont{
     text-align: start;
-    margin-left: 15%;
-    margin-right: 15%;
+    margin-left: 2%;
+    margin-right: 0%;
 }
 .camion{
     position: absolute;
-    margin-top: 80%;
+    margin-top: 30%;
     width: 8%;
-    left: 21%;
+    left: 7%;
     font-size: 15px;
     border: 1px solid;
     border-radius: 90%;
     padding: 1vw;
     color:#39b54a;
+}
+.linea-precio-des{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
 }
 @media (min-width: 768px){
     .hileras{
@@ -62,11 +66,20 @@ div{
     }
     .formato-img{
         position: relative;
-        width: 50%;
+        width: 58%;
         margin: 11vw;
+    }
+    .camion{
+        position: absolute;
+        margin-top: 85%;
+        width: 22%;
+        left: 3%;
     }
     .descripcion{
         display: block;
+    }
+    .img{
+        margin-bottom: 38px;
     }
 }
 @media (min-width: 1024px){
